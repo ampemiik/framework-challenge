@@ -2,3 +2,30 @@
 a.active {
     font-weight: bold;
 }
+
+body {
+    margin: auto;
+    background-color: rgb(17, 15, 11);
+    color:rgb(164, 152, 129);
+}
+
+h1 {
+    text-align: center;
+    display: flexbox;
+    width: 50%;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+    display: flexbox;
+    width: 50%;
+    margin: 0 auto;
+}
+
+img {
+    display: flex;
+    margin: 50px auto 0 auto;
+    width: 25%;
+    height: auto;
+}
