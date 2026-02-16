@@ -7,25 +7,41 @@ body {
     margin: auto;
     background-color: rgb(17, 15, 11);
     color:rgb(164, 152, 129);
+    font-family:monospace;
+    text-decoration: none;
 }
 
 h1 {
     text-align: center;
     display: flexbox;
-    width: 50%;
     margin: 0 auto;
+    font-size: 4rem;
 }
 
 h2 {
     text-align: center;
     display: flexbox;
-    width: 50%;
     margin: 0 auto;
+    font-size: 2rem;
+}
+
+p {
+    text-align: center;
+    display: flexbox;
+    max-width: 50%;
+    margin: 0 auto;
+    font-size: 1.5rem;
+}
+
+hr {
+    width: 80px;
+    color: #88641b;
+    margin: 20px auto;
 }
 
 img {
     display: flex;
-    margin: 50px auto 0 auto;
+    margin: 50px auto 50px auto;
     width: 25%;
     height: auto;
 }
