@@ -13,24 +13,27 @@ body {
 
 h1 {
     text-align: center;
-    display: flexbox;
-    margin: 0 auto;
+    justify-content: center;
+    display: flex;
+    margin: 0 auto 20px auto;
     font-size: 4rem;
 }
 
 h2 {
     text-align: center;
-    display: flexbox;
-    margin: 0 auto;
+    justify-content: center;
+    display: flex;
+    margin: 0 auto 10px auto;
     font-size: 2rem;
 }
 
 p {
     text-align: center;
-    display: flexbox;
+    justify-content: center;
+    display: flex;
     max-width: 50%;
     margin: 0 auto;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
 }
 
 hr {
@@ -39,9 +42,28 @@ hr {
     margin: 20px auto;
 }
 
-img {
+img.socialmedia {
     display: flex;
-    margin: 50px auto 50px auto;
-    width: 25%;
+    margin: 0 auto;
+    width: 60px;
     height: auto;
 }
+
+img {
+    display: flex;
+    margin: 50px auto 30px auto;
+    max-width: 350px;
+    height: auto;
+}
+
+
+a {
+    justify-content: center;
+    display: flex;
+    color:rgb(164, 152, 129);
+    font-family:monospace;
+    margin: 15px auto;
+    font-size: 1.5rem;
+    width: 50%
+}
+
